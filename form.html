@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+</head>
+<body>
+
+<h1>01. Application Form </h1>
+
+<form action="submit.php" method="post">
+    <!-- Text Input -->
+    <label for="name">Name:</label>
+    <input type="text" placeholder="Enter Name" id="name" name="name" required><br><br>
+
+    <!-- Email Input -->
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Enter mail id" id="email" name="email" required><br><br>
+
+    <!-- Password Input -->
+    <label for="password">Password:</label>
+    <input type="password" placeholder="Enter Password" id="password" name="password" required><br><br>
+
+    <!-- Radio Buttons -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Checkboxes -->
+    <label for="CHOOSE SKILL">CHOOSE SKILLS:</label><br>
+    <input type="checkbox" id="HTML" name="CHOOSE SKILLS[]" value="HTML">
+    <label for="HTML">HTML</label>
+    <input type="checkbox" id="CSS" name="CHOOSE SKILLS[]" value="CSS">
+    <label for="CSS">CSS</label>
+    <input type="checkbox" id="JS" name="CHOOSE SKILLS[]" value="JS">
+    <label for="JS">JS</label>
+    <input type="checkbox" id="BOOTSTRAP" name="CHOOSE SKILLS[]" value="JBOOT STRAP">
+    <label for="BOOTSTRAP">BOOTSTRAP</label>
+    <input type="checkbox" id="REACT JS" name="CHOOSE SKILLS[]" value="REACT JS">
+    <label for="REACT JS">REACT JS</label><br><br>
+
+    <!-- Dropdown Select -->
+    <label for="Job Type">Job Type:</label>
+    <select id="Job Type" name="Job Type">
+        <option value="Front End Developer">Front End Developer</option>
+        <option value="Back End Developer">Back End Developer</option>
+        <option value="User Experience Designer ">User Experience Designer</option>
+        <option value="other">Other</option>
+    </select><br><br>
+
+    <!-- Textarea -->
+    <label for="">Give a brief summary about you:</label><br>
+    <textarea id="give a brief summary about you" placeholder="give a brief summary about you" name="ive a brief summary about you" rows="4" cols="50"></textarea><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+    
+    <!-- Reset Button -->
+    <input type="Reset" value="Reset">
+</form>
+
+</body>
+</html>
